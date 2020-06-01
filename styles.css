@@ -1,0 +1,70 @@
+.html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* semaforo */
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.traffic-light{
+    width: 20%;
+    height: 250px;
+    background-color: black;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.traffic-light-colors{
+    width: 30%;
+    height: 40px;
+    border-radius: 50px;
+    opacity: 0.5;
+}
+
+#red-light{
+    background-color: red;
+}
+
+#yellow-light{
+    background-color: yellow;
+}
+
+#green-light{
+    background-color: rgb(0, 255, 0);
+}
+
+.active{
+    opacity: 1;
+}
+
+
+/* controles */
+
+.controllers{
+    width: 20%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
