@@ -10,14 +10,33 @@
 <body onload="traffic_light()">
     <div class="container">
         <div class="traffic-light">
-            <div class="traffic-light-colors" id="red-light"></div>
-            <div class="traffic-light-colors" id="yellow-light"></div>
-            <div class="traffic-light-colors" id="green-light"></div>
+            <h1>Carros</h1>
+            <div class="vehicle-light">
+                <div class="vehicle-light-colors" id="red-light-vehicle"></div>
+                <div class="vehicle-light-colors" id="yellow-light-vehicle"></div>
+                <div class="vehicle-light-colors" id="green-light-vehicle"></div>
+            </div>
+
+            <div class="traffic-post"></div>
         </div>
 
         <div class="controllers">
-            <button type="button" id="open">Abrir</button>
-            <button type="button" id="close">Fechar</button> 
+            <div class="traffics-img">
+                <button type="button" id="vehicles">Veículos</button>
+            </div>
+            <div class="traffics-img">
+                <button type="button" id="pedestrians">Pedestres</button>
+            </div>
+        </div>
+
+        <div class="traffic-light">
+            <h1>Pedestres</h1>
+            <div class="pedestrian-light">
+                <div class="pedestrian-light-colors" id="red-light-pedestrian"></div>
+                <div class="pedestrian-light-colors" id="green-light-pedestrian"></div>
+            </div>
+
+            <div class="traffic-post"></div>
         </div>
     </div>
 </body>
